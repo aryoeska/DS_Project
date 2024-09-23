@@ -1,0 +1,5 @@
+model,best_score,best_params
+GradientBoostingRegressor,0.130149124281588,"{'learning_rate': 0.1, 'max_depth': 4, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 30, 'subsample': 0.7}"
+AdaBoostReg,0.08118152334220585,"{'learning_rate': 0.1, 'loss': 'exponential', 'n_estimators': 10}"
+Random Forest,0.1237625831566066,"{'max_depth': 30, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 20}"
+XGBoost,0.04724012566464495,"{'colsample_bynode': 0.8, 'learning_rate': 0.2, 'n_estimators': 10, 'subsample': 0.8}"
